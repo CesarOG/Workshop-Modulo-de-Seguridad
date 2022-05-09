@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoSecurity.Application.TransferObject\DemoSecurity.Application.TransferObject.csproj" />
+    <ProjectReference Include="..\DemoSecurity.Common.SystemVariable\DemoSecurity.Common.SystemVariable.csproj" />
+    <ProjectReference Include="..\DemoSecurity.Repository.Data\DemoSecurity.Repository.Data.csproj" />
+  </ItemGroup>
+
+</Project>

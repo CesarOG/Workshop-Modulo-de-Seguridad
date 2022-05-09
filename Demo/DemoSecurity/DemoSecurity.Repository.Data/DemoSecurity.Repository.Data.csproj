@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Implementation\NonTransactional\5zztnedj.20t~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoSecurity.Application.TransferObject\DemoSecurity.Application.TransferObject.csproj" />
+    <ProjectReference Include="..\DemoSecurity.Common.SystemVariable\DemoSecurity.Common.SystemVariable.csproj" />
+    <ProjectReference Include="..\DemoSecurity.Repository.Entity\DemoSecurity.Repository.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
